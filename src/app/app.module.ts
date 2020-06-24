@@ -10,6 +10,7 @@ import { ClientsComponent } from './components/clients/clients.component';
 import { TeamComponent } from './components/team/team.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DetailsComponent } from './components/details/details.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
     TeamComponent,
     ContactUsComponent,
     FooterComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
